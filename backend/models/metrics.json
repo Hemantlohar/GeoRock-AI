@@ -1,0 +1,398 @@
+{
+  "XGBoost": {
+    "accuracy": 92.43,
+    "roc_auc": 0.9799,
+    "precision": 90.74,
+    "recall": 79.46,
+    "f1_score": 84.73,
+    "confusion_matrix": [
+      [
+        500,
+        15
+      ],
+      [
+        38,
+        147
+      ]
+    ],
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0
+      },
+      {
+        "fpr": 0.0019,
+        "tpr": 0.4
+      },
+      {
+        "fpr": 0.0039,
+        "tpr": 0.6973
+      },
+      {
+        "fpr": 0.0097,
+        "tpr": 0.7189
+      },
+      {
+        "fpr": 0.0136,
+        "tpr": 0.7622
+      },
+      {
+        "fpr": 0.0194,
+        "tpr": 0.7784
+      },
+      {
+        "fpr": 0.0311,
+        "tpr": 0.8054
+      },
+      {
+        "fpr": 0.0369,
+        "tpr": 0.8108
+      },
+      {
+        "fpr": 0.0408,
+        "tpr": 0.827
+      },
+      {
+        "fpr": 0.0427,
+        "tpr": 0.8378
+      },
+      {
+        "fpr": 0.0466,
+        "tpr": 0.8432
+      },
+      {
+        "fpr": 0.0485,
+        "tpr": 0.8649
+      },
+      {
+        "fpr": 0.0583,
+        "tpr": 0.8703
+      },
+      {
+        "fpr": 0.0602,
+        "tpr": 0.8919
+      },
+      {
+        "fpr": 0.0718,
+        "tpr": 0.8973
+      },
+      {
+        "fpr": 0.0738,
+        "tpr": 0.9081
+      },
+      {
+        "fpr": 0.0874,
+        "tpr": 0.9297
+      },
+      {
+        "fpr": 0.101,
+        "tpr": 0.9351
+      },
+      {
+        "fpr": 0.1029,
+        "tpr": 0.9459
+      },
+      {
+        "fpr": 0.1068,
+        "tpr": 0.9514
+      },
+      {
+        "fpr": 0.1282,
+        "tpr": 0.9676
+      },
+      {
+        "fpr": 0.1456,
+        "tpr": 0.973
+      },
+      {
+        "fpr": 0.165,
+        "tpr": 0.9838
+      },
+      {
+        "fpr": 0.2117,
+        "tpr": 0.9892
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0
+      }
+    ],
+    "feature_importance": {
+      "displacement_rate_mm_day": 0.2206,
+      "rock_mass_rating_rmr": 0.182,
+      "slope_angle_deg": 0.1731,
+      "rainfall_mm": 0.0743,
+      "crack_growth_rate_mm_day": 0.074,
+      "pore_water_pressure_kpa": 0.0659,
+      "vibration_ppv_mm_s": 0.0553,
+      "crack_width_mm": 0.0496,
+      "humidity_pct": 0.0428,
+      "rock_displacement_mm": 0.0412,
+      "temperature_c": 0.0214
+    }
+  },
+  "Random Forest": {
+    "accuracy": 92.14,
+    "roc_auc": 0.9762,
+    "precision": 92.76,
+    "recall": 76.22,
+    "f1_score": 83.68,
+    "confusion_matrix": [
+      [
+        504,
+        11
+      ],
+      [
+        44,
+        141
+      ]
+    ],
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0
+      },
+      {
+        "fpr": 0.0019,
+        "tpr": 0.1514
+      },
+      {
+        "fpr": 0.0039,
+        "tpr": 0.573
+      },
+      {
+        "fpr": 0.0078,
+        "tpr": 0.5784
+      },
+      {
+        "fpr": 0.0097,
+        "tpr": 0.7135
+      },
+      {
+        "fpr": 0.0136,
+        "tpr": 0.7405
+      },
+      {
+        "fpr": 0.0175,
+        "tpr": 0.7459
+      },
+      {
+        "fpr": 0.0214,
+        "tpr": 0.7676
+      },
+      {
+        "fpr": 0.0272,
+        "tpr": 0.8
+      },
+      {
+        "fpr": 0.033,
+        "tpr": 0.8108
+      },
+      {
+        "fpr": 0.0466,
+        "tpr": 0.827
+      },
+      {
+        "fpr": 0.0524,
+        "tpr": 0.8324
+      },
+      {
+        "fpr": 0.0544,
+        "tpr": 0.8432
+      },
+      {
+        "fpr": 0.0602,
+        "tpr": 0.8541
+      },
+      {
+        "fpr": 0.0621,
+        "tpr": 0.8865
+      },
+      {
+        "fpr": 0.0796,
+        "tpr": 0.9027
+      },
+      {
+        "fpr": 0.0893,
+        "tpr": 0.9081
+      },
+      {
+        "fpr": 0.0932,
+        "tpr": 0.9297
+      },
+      {
+        "fpr": 0.1049,
+        "tpr": 0.9351
+      },
+      {
+        "fpr": 0.1068,
+        "tpr": 0.9459
+      },
+      {
+        "fpr": 0.1282,
+        "tpr": 0.9568
+      },
+      {
+        "fpr": 0.1767,
+        "tpr": 0.973
+      },
+      {
+        "fpr": 0.2,
+        "tpr": 0.9838
+      },
+      {
+        "fpr": 0.2505,
+        "tpr": 0.9892
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0
+      }
+    ],
+    "feature_importance": {
+      "rock_mass_rating_rmr": 0.2322,
+      "slope_angle_deg": 0.1975,
+      "displacement_rate_mm_day": 0.1872,
+      "crack_growth_rate_mm_day": 0.1013,
+      "rainfall_mm": 0.0585,
+      "pore_water_pressure_kpa": 0.0488,
+      "vibration_ppv_mm_s": 0.0459,
+      "humidity_pct": 0.0376,
+      "crack_width_mm": 0.0363,
+      "rock_displacement_mm": 0.0342,
+      "temperature_c": 0.0203
+    }
+  },
+  "Logistic Regression": {
+    "accuracy": 95.0,
+    "roc_auc": 0.9882,
+    "precision": 94.12,
+    "recall": 86.49,
+    "f1_score": 90.14,
+    "confusion_matrix": [
+      [
+        505,
+        10
+      ],
+      [
+        25,
+        160
+      ]
+    ],
+    "roc_curve": [
+      {
+        "fpr": 0.0,
+        "tpr": 0.0
+      },
+      {
+        "fpr": 0.0,
+        "tpr": 0.6432
+      },
+      {
+        "fpr": 0.0019,
+        "tpr": 0.6649
+      },
+      {
+        "fpr": 0.0039,
+        "tpr": 0.7027
+      },
+      {
+        "fpr": 0.0078,
+        "tpr": 0.7946
+      },
+      {
+        "fpr": 0.0097,
+        "tpr": 0.8108
+      },
+      {
+        "fpr": 0.0136,
+        "tpr": 0.8162
+      },
+      {
+        "fpr": 0.0155,
+        "tpr": 0.8432
+      },
+      {
+        "fpr": 0.0175,
+        "tpr": 0.8649
+      },
+      {
+        "fpr": 0.0194,
+        "tpr": 0.8703
+      },
+      {
+        "fpr": 0.0233,
+        "tpr": 0.8757
+      },
+      {
+        "fpr": 0.0311,
+        "tpr": 0.8865
+      },
+      {
+        "fpr": 0.0388,
+        "tpr": 0.8919
+      },
+      {
+        "fpr": 0.0408,
+        "tpr": 0.8973
+      },
+      {
+        "fpr": 0.0466,
+        "tpr": 0.9081
+      },
+      {
+        "fpr": 0.0602,
+        "tpr": 0.9189
+      },
+      {
+        "fpr": 0.0641,
+        "tpr": 0.9243
+      },
+      {
+        "fpr": 0.0738,
+        "tpr": 0.9459
+      },
+      {
+        "fpr": 0.0913,
+        "tpr": 0.9568
+      },
+      {
+        "fpr": 0.0951,
+        "tpr": 0.9622
+      },
+      {
+        "fpr": 0.1029,
+        "tpr": 0.973
+      },
+      {
+        "fpr": 0.1379,
+        "tpr": 0.9838
+      },
+      {
+        "fpr": 0.1456,
+        "tpr": 0.9892
+      },
+      {
+        "fpr": 0.1476,
+        "tpr": 0.9946
+      },
+      {
+        "fpr": 1.0,
+        "tpr": 1.0
+      }
+    ],
+    "feature_importance": {
+      "rock_mass_rating_rmr": 0.2506,
+      "slope_angle_deg": 0.2261,
+      "crack_growth_rate_mm_day": 0.1198,
+      "vibration_ppv_mm_s": 0.1002,
+      "pore_water_pressure_kpa": 0.0713,
+      "crack_width_mm": 0.064,
+      "displacement_rate_mm_day": 0.0613,
+      "rainfall_mm": 0.0543,
+      "humidity_pct": 0.0398,
+      "rock_displacement_mm": 0.0092,
+      "temperature_c": 0.0035
+    }
+  }
+}
